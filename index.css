@@ -1,0 +1,38 @@
+.proj-title {
+    text-align: center;
+}
+
+.outer-circle {
+    height: 200px;
+    width: 200px; 
+    border-radius: 50%;
+    background-color: #E65962;
+    background-image: linear-gradient(91deg, transparent 50%, #dadada 50%),
+		linear-gradient(90deg, #dadada 50%, transparent 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.circle {
+    height: 100px; 
+    width: 100px; 
+    transform: scale(1.5);
+    position: relative;
+    text-align: center;
+    border-radius: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#demo {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
